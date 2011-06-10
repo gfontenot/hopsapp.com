@@ -129,13 +129,13 @@ div#content
 /*	margin-bottom: 50px;
 	margin-top: 15px;*/
 	font-size: 18px;
-  width: 100%;
-/*  width: 50%;*/
+/*  width: 100%;*/
+  width: 1200px;
 /*  margin-left: 25%;*/
 	min-height: 350px;
 }
 
-div.post
+div#post
 {
 	border-bottom: 1px dashed #D3D3D3;
 	margin-top: 1.5em;
@@ -150,7 +150,7 @@ div.post
   color: #777;
 }
 
-div.post postamble
+div#post postamble
 {
 	display: block;
 	font-size: 14px;
@@ -163,13 +163,20 @@ div.footnotes
 	font-size: 14px;
 	color: #777;
 }
-
-/*div#info
+div.nav
 {
-  float: right;
-}*/
+  padding-top: 15px;
+  width: 1200px;
+  text-align: center;
+}
 
-/*div#screenshots
+div.info
+{
+  padding-top: 40px;
+  float: right;
+}
+
+div.screenshots
 {
   float: left;
-}*/
+}
